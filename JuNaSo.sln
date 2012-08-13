@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JuNaSo", "JuNaSo\JuNaSo.csproj", "{5A5DD5F3-E050-4CEE-9146-F66F1C6DF57B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "junaso.tests", "junaso.tests\junaso.tests.csproj", "{8B8F7700-7BA1-4634-9E01-D85C9B66ED5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{12F308C4-58F3-4B7C-88AA-C6C07531F7AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeJuNaSo", "GeJuNaSo\GeJuNaSo.csproj", "{E3D471BD-F5F3-4B6C-87C1-CE8463718DEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Default|Any CPU = Default|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12F308C4-58F3-4B7C-88AA-C6C07531F7AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12F308C4-58F3-4B7C-88AA-C6C07531F7AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12F308C4-58F3-4B7C-88AA-C6C07531F7AE}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{12F308C4-58F3-4B7C-88AA-C6C07531F7AE}.Default|Any CPU.Build.0 = Debug|Any CPU
+		{12F308C4-58F3-4B7C-88AA-C6C07531F7AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12F308C4-58F3-4B7C-88AA-C6C07531F7AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A5DD5F3-E050-4CEE-9146-F66F1C6DF57B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A5DD5F3-E050-4CEE-9146-F66F1C6DF57B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A5DD5F3-E050-4CEE-9146-F66F1C6DF57B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A5DD5F3-E050-4CEE-9146-F66F1C6DF57B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B8F7700-7BA1-4634-9E01-D85C9B66ED5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B8F7700-7BA1-4634-9E01-D85C9B66ED5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B8F7700-7BA1-4634-9E01-D85C9B66ED5F}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B8F7700-7BA1-4634-9E01-D85C9B66ED5F}.Default|Any CPU.Build.0 = Debug|Any CPU
+		{8B8F7700-7BA1-4634-9E01-D85C9B66ED5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B8F7700-7BA1-4634-9E01-D85C9B66ED5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3D471BD-F5F3-4B6C-87C1-CE8463718DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3D471BD-F5F3-4B6C-87C1-CE8463718DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3D471BD-F5F3-4B6C-87C1-CE8463718DEA}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3D471BD-F5F3-4B6C-87C1-CE8463718DEA}.Default|Any CPU.Build.0 = Debug|Any CPU
+		{E3D471BD-F5F3-4B6C-87C1-CE8463718DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3D471BD-F5F3-4B6C-87C1-CE8463718DEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = JuNaSo\JuNaSo.csproj
+	EndGlobalSection
+EndGlobal
