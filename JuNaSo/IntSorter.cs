@@ -9,13 +9,13 @@ namespace junaso
 	{
 		public void Sort(int[] unsorted)
 		{
-			for(int i=0; i < unsorted.Length - 1; i ++ )
+			for(int i=0; i < unsorted.Length; i ++ )
 			{
-				for(int j=i+1; j < unsorted.Length; j ++ )
+				for(int j=unsorted.Length - 1; j > i; j -- )
 				{
-					if( unsorted[i] > unsorted[j] )
+					if( unsorted[j-1] > unsorted[j] )
 					{
-						Swap( unsorted, i, j );
+						Swap( unsorted, j-1, j );
 					}
 				}
 				/*
@@ -28,7 +28,6 @@ namespace junaso
 				}
 				Console.WriteLine( "________Iteration " + i + " finished._________");
 				*/
-				// CreateGridImage (unsorted, 10, i);
 			}
 		}
 
@@ -38,47 +37,5 @@ namespace junaso
 			unsorted[j] = unsorted[i];
 			unsorted[i] = tmp;
 		}
-
-		public static void CreateGridImage(int[] array,
-									       int boxSize,
-		                                   int index)
-        {
-            using (var bmp = new System.Drawing.Bitmap(array.Length * boxSize+1, boxSize+1))
-            {
-                using (Graphics g = Graphics.FromImage(bmp))
-                {
-                    g.Clear(Color.Red);
-                    Pen pen = new Pen(Color.Black);
-                    pen.Width = 1;
-
-                    //Draw red rectangles for wrong element
-					for(int i=0; i < array.Length; i ++ )
-					{
-						if( i + 1 == array[i] )
-						{
-		                    Rectangle rect = new Rectangle(boxSize * i, 0, boxSize, boxSize);
-		                    g.FillRectangle(new SolidBrush(Color.Green), rect);
-						}
-					}
-
-                    //Draw horizontal lines
-                    for (int i = 0; i <= array.Length;i++ )
-                    {
-                        g.DrawLine(pen, (i * boxSize), 0, i * boxSize, boxSize);
-                    }
-
-                    //Draw vertical lines            
-                    for (int i = 0; i <= 1; i++)
-                    {
-                        g.DrawLine(pen, 0, (i * boxSize), boxSize * array.Length, i * boxSize);
-                    }               
-
-                }
-
-				var stream = new FileStream("Sort-" + index +".jpg", FileMode.Create);
-                bmp.Save(stream, System.Drawing.Imaging.ImageFormat.Jpeg); 
-				stream.Close();
-            }
-        }
 	}
 }

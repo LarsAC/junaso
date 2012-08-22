@@ -20,6 +20,9 @@ namespace junaso.tests
 			sequence[1].Should().Be.EqualTo(2);
 			sequence[2].Should().Be.EqualTo(3);
 			sequence[3].Should().Be.EqualTo(4);
+			sequence[4].Should().Be.EqualTo(5);
+			sequence[5].Should().Be.EqualTo(6);
+			sequence[6].Should().Be.EqualTo(7);
 		}
 	}
 }

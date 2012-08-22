@@ -2,17 +2,17 @@ using System;
 
 namespace GeJuNaSo
 {
-	public class Sorter<T> where T : IComparable
+	public class Sorter<T> where T : IComparable<T>
 	{
 		public void Sort(T[] unsorted)
 		{
-			for(int i=0; i < unsorted.Length - 1; i ++ )
+			for(int i=0; i < unsorted.Length; i ++ )
 			{
-				for(int j=i+1; j < unsorted.Length; j ++ )
+				for(int j=unsorted.Length - 1; j > i; j -- )
 				{
-					if( unsorted[i].CompareTo(unsorted[j]) > 0 )
+					if( unsorted[j-1].CompareTo(unsorted[j]) > 0 )
 					{
-						Swap( unsorted, i, j );
+						Swap( unsorted, j-1, j );
 					}
 				}
 			}
