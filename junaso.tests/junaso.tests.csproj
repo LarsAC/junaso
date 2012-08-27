@@ -41,6 +41,8 @@
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="SortingIntegers.cs" />
     <Compile Include="GenericSorting.cs" />
+    <Compile Include="SortingUntypedArray.cs" />
+    <Compile Include="SortingComparables.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

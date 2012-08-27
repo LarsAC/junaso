@@ -36,6 +36,9 @@
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="IntSorter.cs" />
+    <Compile Include="DoubleSorter.cs" />
+    <Compile Include="UntypedSorterWithCast.cs" />
+    <Compile Include="SorterForComparable.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

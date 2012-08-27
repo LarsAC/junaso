@@ -1,10 +1,10 @@
 using System;
 
-namespace junaso.generic
+namespace junaso
 {
-	public class Sorter<T> where T : IComparable<T>
+	public class SorterForComparable
 	{
-		public void Sort(T[] unsorted)
+		public void Sort(IComparable[] unsorted)
 		{
 			for(int i=0; i < unsorted.Length; i ++ )
 			{
@@ -18,9 +18,9 @@ namespace junaso.generic
 			}
 		}
 
-		private void Swap( T[] unsorted, int i, int j )
+		private void Swap( IComparable[] unsorted, int i, int j )
 		{
-			T tmp = unsorted[j];
+			IComparable tmp = unsorted[j];
 			unsorted[j] = unsorted[i];
 			unsorted[i] = tmp;
 		}

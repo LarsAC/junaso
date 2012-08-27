@@ -1,21 +1,21 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="junaso.tests/GenericSorting.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="JuNaSo/IntSorter.cs">
     <Files>
-      <File FileName="JuNaSo/IntSorter.cs" Line="31" Column="8" />
-      <File FileName="junaso.tests/SortingIntegers.cs" Line="25" Column="1" />
+      <File FileName="JuNaSo/IntSorter.cs" Line="13" Column="5" />
+      <File FileName="junaso.tests/SortingIntegers.cs" Line="16" Column="4" />
       <File FileName="Test/Main.cs" Line="6" Column="24" />
-      <File FileName="GeJuNaSo/Sorter.cs" Line="3" Column="19" />
-      <File FileName="junaso.tests/GenericSorting.cs" Line="23" Column="4" />
+      <File FileName="GeJuNaSo/Sorter.cs" Line="13" Column="1" />
+      <File FileName="junaso.tests/GenericSorting.cs" Line="41" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="GeJuNaSo" expanded="True" />
-          <Node name="JuNaSo" expanded="True" />
-          <Node name="junaso.tests" expanded="True">
-            <Node name="GenericSorting.cs" selected="True" />
+          <Node name="JuNaSo" expanded="True">
+            <Node name="IntSorter.cs" selected="True" />
           </Node>
+          <Node name="junaso.tests" expanded="True" />
           <Node name="Test" expanded="True" />
         </State>
       </Pad>
